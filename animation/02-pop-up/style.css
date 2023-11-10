@@ -46,7 +46,7 @@ button {
   0%{}
   /* 70%{ transform: translate(-50%, 55%)}
   100%{ transform: translate(-50%, 110%)} */
-  70%{ transform: translate(-50%, -55%)}
+  50%{ transform: translate(-50%, -75%)}
   100%{ transform: translate(-50%, -50%)}
 }
 
@@ -65,7 +65,7 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
-  animation: drop 0.5s ease forwards;
+  animation: drop 1s ease forwards;
 }
 
 .backdrop.show {
